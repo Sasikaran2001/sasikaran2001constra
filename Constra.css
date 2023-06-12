@@ -1,0 +1,86 @@
+@media only screen and (max-width:767px) {
+.sm-border {
+    border-right: none;
+}
+.cour {
+        top: 40px;
+    }
+}
+@media only screen and (max-width:1000px) {
+.bx-sli {
+    height: 500px;
+}
+}
+@media only screen and (min-width:768px) {
+.sm-border {
+    border-right: 1px solid gray;
+}
+
+}
+.cour {
+    top: 30%;
+}
+.location {
+    background-color: #ebebeb;
+}
+.gallery {
+    background-color: #f9f9f9;
+}
+.zoom img {
+    filter: grayscale(0.1);
+    object-fit: cover;
+}
+.zoom img:hover {
+    filter:grayscale(1) ;
+    object-fit:fill;
+    padding: 3px;
+}
+.cards img{
+    border: 1px solid ;
+    filter: grayscale(1);
+    object-fit: scale-down;
+}
+.position-fixed {
+    bottom: 40px;
+    right: 10px;
+}
+.cen .ter {
+    opacity: 0;
+}
+.cen:hover .ter {
+    opacity: 1;
+}
+.slid .bx-wrapper {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background:none;
+}
+.navbar-dark .navbar-nav .nav-link.navhover:hover {
+    color:#ffc119;
+}
+.navhover:hover{
+    color: #ffc119;
+}
+.quote {
+    bottom: 43px;
+}
+.accordion-button.act:not(.collapsed) {
+    color: #ffc119;
+    font-weight:500;
+}
+.click:hover {
+    background-color: #ffc119;
+}
+.dropdown-menu.bordertop {
+    border-top: 2px solid #ffc119;
+}
+.borderbottom {
+    border-bottom: 1px solid #6c757d!important;
+}
+.nav-link.navhover {
+    color:#6c757d ;
+}
+.nav-link.navhover:hover {
+    color: #ffc119;
+}
